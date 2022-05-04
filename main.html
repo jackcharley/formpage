@@ -7,19 +7,32 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-    <h1>Registration Form</h1>
-    <form action="">
-        <label for="firstname">First Name</label>
-        <input type="text" name="First Name" id="firstname">
-        <br>
-        <label for="surname">Last Name</label>
-        <input type="text" name="surname" id="surname">
-        <br>
-        <label for="email"> E-mail Address</label>
-        <input type="email" name="email" id="email">
-        <br>
-        <input type="button" value="Submit">
+<body class="body">
+    <div class="container">
+    <div class="header">
+        <h1>Registration Form</h1>
+    </div>
+    <form class="form">
+            <label for="firstname">First Name</label>
+            <input type="text" name="First Name" id="firstname">
+            <br>
+            <label for="surname">Last Name</label>
+            <input type="text" name="surname" id="surname">
+            <br>
+            <label for="email"> E-mail Address</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <input type="checkbox" id="stem" name="stem" value="stem">
+            <label for="stem">I have a STEM degree</label>
+            <br>
+            <input type="checkbox" id="age" name="age" value="age">
+            <label for="age">I am aged between 18-24</label>
+            <br>
+            <input type="checkbox" id="citizen" name="citizen" value="citizen">
+            <label for="citizen">I am a UK citizen</label>
+            <br>
+            <input type="button" value="Submit">
     </form>
+    </div>
 </body>
 </html>
